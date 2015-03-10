@@ -1,6 +1,5 @@
-<!DOCTYPE HTML>
 <head>
-	<title>Commandes branch --set-upstream</title>
+	<title>Commandes branch</title>
 	<meta charset="UTF-8">
 	<link href="css/commandes.css" rel="stylesheet" type"text/css">
 </head>
@@ -10,40 +9,52 @@
 		<p href="./index.html">Menu</p>
 	</nav>
 	<h1 id="titreCommande">Commandes branch --set-upstream</h1>
-	<section class="descriptif">
-		<p>Si la branche indiquée n'existe pas encore ou si "--force" a été utilisé, alors la commande "git branch --set-upstream" agit exactement comme "--track". 
+
+    <section class="descriptif">
+        <p>Si la branche indiquée n'existe pas encore ou si "--force" a été utilisé, alors la commande "git branch --set-upstream" agit exactement comme "--track". 
 		Sinon elle reste fixe jusqu'à la configuration comme "--track" resterait lors de la création de la branche,
 		sauf si les points de la branche n'ont pas été modifié .</p>
-		<h2>Syntaxe</h2>
-	</section>
-	<section class="exemple">
-		<p>git branch --set-upstream</p>
-		<h2>Affichage</h2>
-		<p>* master</p>
-	</section>
+
+    </section>
+
+    <section class="affichage">
+        <h2>Syntaxe</h2>
+            <code>git branch --set-upstream</code>
+        <h2>Affichage</h2>
+            <code>* master</code>
+    <section/>
 	
-	<h1 id="titreCommande">Commandes "git branch --set-upstream-to"</h1>
-	<section class="descriptif">
-		<p>On considère la configuration <branchname> le dépistage d'informations si <upstream> est considéré comme <branchname> 
-		la branche amont. Si aucun <branchname> n'est spécifié, alors "git branch --set-upstream-to" manque à ses engagements à la branche actuelle.</p>
-		<h2>Syntaxe</h2>
-	</section>
-	<section class="exemple">
-		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
-		<p>Exemple de l'affichage de la commande dnas le terminal</p>
-	</section>
+	<h1 id="titreCommande">Commande branch --set-uptream-to</h1>
+
+    <section class="descriptif">
+        <p>On utilise la commande "branch --set-upstream-to=" pour creer une nouvelle branche master d'un fork creer à partir d'une branche master
+		locale. </p>
+
+    </section>
+
+    <section class="affichage">
+        <h2>Syntaxe</h2>
+            <code>git branch --set-uptream-to=my_fork/master</code>
+        <h2>Affichage</h2>
+            <code>Branch gh-pages set up to track remote branch master from my_fork.</code>
+    <section/>
+
 	
-	<h1 id="titreCommande">Commandes "git branch -u"</h1>
-	<section class="descriptif">
-		<p>C'est la même chose que "git branch --set-upstream"</p>
-		<h2>Syntaxe</h2>
-	</section>
-	<section class="exemple">
-		<p>Ecrire ici la commande</p>
-		<h2>Affichage</h2>
-		<p>Exemple de l'affichage de la commande dnas le terminal</p>
-	</section>
+	<h1 id="titreCommande">Commande branch -u</h1>
+
+    <section class="descriptif">
+        <p>On utilise la commande "branch --set-upstream-to=" pour creer une nouvelle branche master d'un fork creer à partir d'une branche master
+		locale. </p>
+
+    </section>
+
+    <section class="affichage">
+        <h2>Syntaxe</h2>
+            <code>git branch --set-uptream-to=my_fork/master</code>
+        <h2>Affichage</h2>
+            <code>Branch gh-pages set up to track remote branch master from my_fork.</code>
+    <section/>
+
 	<footer>		
 		<p>Git Manual - Melanie13340</p>
 	</footer>
